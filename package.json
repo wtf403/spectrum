@@ -1,0 +1,21 @@
+{
+  "name": "Spectrum-theme",
+  "displayName": "Spectrum",
+  "description": "Color theme without destruction",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spectrum",
+        "uiTheme": "vs",
+        "path": "./themes/Spectrum-color-theme.json"
+      }
+    ]
+  }
+}
