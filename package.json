@@ -1,11 +1,16 @@
 {
-  "name": "Spectrum-theme",
-  "displayName": "Spectrum",
-  "description": "VSCode color theme without destruction",
+  "name": "spectrum-theme",
+  "displayName": "Spectrum – black and white only theme",
+  "description": "Code without destruction",
+  "publisher": "wtf403",
+  "icon": "imgs/logo.gif",
   "version": "0.0.1",
-  "repository": "https://github.com/wtf403/spectrum",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtf403/spectrum.git"
+  },
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.93.1"
   },
   "categories": [
     "Themes"

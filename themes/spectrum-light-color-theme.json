@@ -1,5 +1,5 @@
 {
-  "name": "Untitled",
+  "name": "Spectrum light",
   "type": "light",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -987,7 +987,7 @@
       "name": "illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1001,21 +1001,21 @@
       "name": "Broken",
       "scope": "invalid.broken",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
       "name": "Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
       "name": "Unimplemented",
       "scope": "invalid.unimplemented",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1113,7 +1113,7 @@
       "name": "php illegal.non-null-typehinted",
       "scope": "invalid.illegal.non-null-typehinted.php",
       "settings": {
-        "foreground": "#f4474"
+        "foreground": "#000000"
       }
     },
     {
@@ -1651,7 +1651,7 @@
       "name": "language operators like '+', '-' etc",
       "scope": ["constant.other.color.rgb-value.xi"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#000000"
       }
     },
     {
@@ -1748,8 +1748,8 @@
     }
   ],
   "colors": {
-    "foreground": "#CECECE",
-    "focusBorder": "#CECECE",
+    "foreground": "#000",
+    "focusBorder": "#dddddd",
     "selection.background": "#f0f0f0",
     "scrollbar.shadow": "#dddddd",
     "activityBar.foreground": "#444444",
@@ -1759,13 +1759,14 @@
     "activityBarBadge.background": "#f0f0f000",
     "activityBar.border": "#ffffff00",
     "activityBar.activeBackground": "#ffffff00",
-    "sideBar.background": "#f0f0f0",
+    "sideBar.background": "#f9f9f9",
     "sideBar.foreground": "#757575",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#616161",
     "sideBarSectionHeader.border": "#ffffff00",
     "sideBarTitle.foreground": "#6f6f6f",
     "sideBar.border": "#f0f0f000",
+    "list.focusAndSelectionOutline": "#ffffff00",
     "list.inactiveSelectionBackground": "#ffffff00",
     "list.inactiveSelectionForeground": "#616161",
     "list.hoverBackground": "#ffffff00",
@@ -1842,14 +1843,14 @@
     "editor.lineHighlightBorder": "#eeeeee",
     "editorLineNumber.activeForeground": "#000000",
     "editorLink.activeForeground": "#000000",
-    "editorIndentGuide.background": "#d3d3d3",
-    "editorIndentGuide.activeBackground": "#939393",
-    "editorRuler.foreground": "#d3d3d3",
+    "editorIndentGuide.background": "#ffffff00",
+    "editorIndentGuide.activeBackground": "#ffffff00",
+    "editorRuler.foreground": "#ffffff00",
     "editorBracketMatch.background": "#0064001a",
     "editorBracketMatch.border": "#b9b9b9",
     "editor.foldBackground": "#d1d1d14d",
     "editorOverviewRuler.background": "#25252500",
-    "editorOverviewRuler.border": "#7f7f7f4d",
+    "editorOverviewRuler.border": "#ffffff00",
     "editorError.foreground": "#000000",
     "editorError.background": "#B73A3400",
     "editorError.border": "#ffffff00",
@@ -1991,8 +1992,15 @@
     "editorGroup.emptyBackground": "#ffffff",
     "panelSection.border": "#80808059",
     "statusBarItem.activeBackground": "#FFFFFF25",
-    "settings.headerForeground": "#CECECE",
-    "settings.focusedRowBackground": "#ffffff07",
+    "settings.headerForeground": "#5a5a5a",
+    "settings.textInputBackground": "#f0f0f0",
+    "settings.textInputForeground": "#4a4a4a",
+    "settings.focusedRowBackground": "#e0e0e0",
+    "settings.modifiedItemIndicator": "#757575",
+    "settings.dropdownBackground": "#e5e5e5",
+    "settings.dropdownForeground": "#333333",
+    "settings.numberInputBackground": "#e0e0e0",
+    "settings.numberInputForeground": "#333333",
     "walkThrough.embeddedEditorBackground": "#00000050",
     "breadcrumb.activeSelectionForeground": "#4e4e4e",
     "editorGutter.commentRangeForeground": "#424242",
@@ -2000,4 +2008,3 @@
     "debugExceptionWidget.border": "#d5d5d5"
   }
 }
-ff00
