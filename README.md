@@ -1,4 +1,4 @@
-# Spectrum-theme README
+# spectrum-theme README
 
 ## Working with Markdown
 

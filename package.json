@@ -1,8 +1,9 @@
 {
   "name": "Spectrum-theme",
   "displayName": "Spectrum",
-  "description": "Color theme without destruction",
+  "description": "VSCode color theme without destruction",
   "version": "0.0.1",
+  "repository": "https://github.com/wtf403/spectrum",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -12,9 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Spectrum",
+        "label": "Spectrum light",
         "uiTheme": "vs",
-        "path": "./themes/Spectrum-color-theme.json"
+        "path": "./themes/spectrum-light-color-theme.json"
+      },
+      {
+        "label": "Spectrum dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spectrum-dark-color-theme.json"
       }
     ]
   }
