@@ -2,8 +2,8 @@
 
 ## light
 
-![light theme img](imgs/image.png)
+![lirght theme img](./imgs/light.png)
 
 ## dark
 
-![dark theme img](imgs/image-1.png)
+![dark theme img](./imgs/dark.png)
